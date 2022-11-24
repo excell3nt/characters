@@ -1,0 +1,40 @@
+h1{
+  text-align: center;
+}
+.image1{
+  display: none;
+  width: 300px;
+  border-radius: 15px;
+  height: 380px;
+}
+.image2{
+  display: none;
+  width: 300px;
+  border-radius: 15px;
+}
+.image3{
+  display: none;
+  width: 300px;
+  border-radius: 15px;
+}
+.image4{
+  display: none;
+  width: 300px;
+  border-radius: 15px;
+}
+.image5{
+  display: none;
+  width: 300px;
+  border-radius: 15px;
+}
+body{
+  background-image: url(../img/images\ \(1\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+.div1{
+  display: flex;
+  margin-left: 270px;
+}
