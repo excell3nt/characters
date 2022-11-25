@@ -12,41 +12,68 @@ $(document).ready(function () {
 
     if ((answer1 === "yes") && (answer2 === "yes") && (answer3 === "no") && (answer4 === "yes")
       && (answer5 === "yes") && (answer6 === "no") && (answer7 === "no") &&(answer8==="no")) {
-      $("#character").text("Michael Scofield")
+      $("#character").text("Michael Scofield(Wentworth Miller)")
       $(".image1").show()
+      $(".image2").hide()
+      $(".image3").hide()
+      $(".image4").hide()
+      $(".image5").hide()
     }
+
     else if ((answer1 === "yes") && (answer2 === "yes") && (answer3 === "yes") && (answer4 === "no")
       && (answer5 === "yes") && (answer6 === "no") && (answer7 === "no") &&(answer8==="no")) {
-      $("#character").text("Lincoln Burrows")
+      $("#character").text("Lincoln Burrows(Dominic Purcell)")
       $(".image2").show()
-
+      $(".image1").hide()
+      $(".image3").hide()
+      $(".image4").hide()
+      $(".image5").hide()
     }
+
     else if ((answer1 === "yes") && (answer2 === "no") && (answer3 === "no") && (answer4 === "no")
       && (answer5 === "no") && (answer6 === "yes") && (answer7 === "no") &&(answer8==="no")) {
-      $("#character").text("Fernando Sucre")
+      $("#character").text("Fernando Sucre(Amaury Nolasco)")
       $(".image3").show()
+      $(".image2").hide()
+      $(".image1").hide()
+      $(".image4").hide()
+      $(".image5").hide()
     }
+
     else if ((answer1 === "no") && (answer2 === "no") && (answer3 === "no") && (answer4 === "no")
       && (answer5 === "yes") && (answer6 === "no") && (answer7 === "yes") &&(answer8==="no")) {
-      $("#character").text("Sara Tencredi")
+      $("#character").text("Sara Tencredi(Sarah Wayne Callies)")
       $(".image4").show()
+      $(".image2").hide()
+      $(".image3").hide()
+      $(".image1").hide()
+      $(".image5").hide()
     }
+
     else if ((answer1 === "yes") && (answer2 === "no") && (answer3 === "no") && (answer4 === "no")
       && (answer5 === "yes") && (answer6 === "no") && (answer7 === "no") &&(answer8==="yes")) {
-      $("#character").text("Theodore Bagwell")
+      $("#character").text("Theodore Bagwell(Robert Knepper)")
       $(".image5").show()
+      $(".image2").hide()
+      $(".image3").hide()
+      $(".image4").hide()
+      $(".image1").hide()
     }
+
     else if ((answer1 === "yes") && (answer2 === "yes") && (answer3 === "yes") && (answer4 === "yes")
       && (answer5 === "yes") && (answer6 === "yes") && (answer7 === "yes") &&(answer8==="yes")) {
       $("#character").text("Sorry! there's no match")
     }
+
     else if ((answer1 === "no") && (answer2 === "no") && (answer3 === "no") && (answer4 === "no")
       && (answer5 === "no") && (answer6 === "no") && (answer7 === "no") &&(answer8==="no")) {
       $("#character").text("Sorry! there's no match")
     }
+
     else if ((answer1 === "yes") && (answer2 === "no") && (answer3 === "no") && (answer4 === "no")
       && (answer5 === "yes") && (answer6 === "no") && (answer7 === "no") &&(answer8==="no")) {
       $("#character").text("Sorry! there's no match")
     }
+
   })
 })
