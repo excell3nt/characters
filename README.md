@@ -1,20 +1,20 @@
-# _Form Letter_
+# __
 
-#### _A form letter is a letter that addresses a person and brings out results about that person._
+#### _._
 
 #### By _**Adumekwe Excellent**_
 
 ## Technologies Used
 
+* _GIT_
 * _BOOTSTRAP_
 * _HTML_
 * _CSS_
 * _JAVASCRIPT_
 * _JQUERY_
-
 ## Description
 
-_What it does is that, whenever an individual fills the input he/she gets a description about themselves._
+__
 
 ## Setup/Installation Requirements
 
