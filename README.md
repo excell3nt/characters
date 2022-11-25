@@ -1,20 +1,20 @@
-# __
+# _Character_
 
-#### _._
+#### _This project shows the matched character of the users input_
 
 #### By _**Adumekwe Excellent**_
 
 ## Technologies Used
 
-* _GIT_
 * _BOOTSTRAP_
 * _HTML_
 * _CSS_
 * _JAVASCRIPT_
 * _JQUERY_
+
 ## Description
 
-__
+_What it does is that, whenever an individual fills in the input (either yes or no) user gets a character that matches he/her input._
 
 ## Setup/Installation Requirements
 
