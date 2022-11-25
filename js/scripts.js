@@ -78,5 +78,11 @@ $(document).ready(function () {
     else if((answer5===answer6) || (answer7===answer8)){
       $("#character").text("Sorry! there's no match")
     }
+
+    else if ((answer1 === "yes") && (answer2 === "no") && (answer3 === "yes") && (answer4 === "no")
+      && (answer5 === "yes") && (answer6 === "no") && (answer7 === "yes") &&(answer8==="no")) {
+      $("#character").text("Sorry! there's no match")
+    }
+
   })
 })
