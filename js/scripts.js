@@ -75,7 +75,7 @@ $(document).ready(function () {
       $("#character").text("Sorry! there's no match")
     }
 
-    else if((answer5===answer6)){
+    else if((answer5===answer6) || (answer7===answer8)){
       $("#character").text("Sorry! there's no match")
     }
   })
