@@ -1,14 +1,14 @@
 $(document).ready(function () {
   $("#form").submit(function (event) {
-    event.preventDefault()
-    const answer1 = $("#input1").val()
-    const answer2 = $("#input2").val()
-    const answer3 = $("#input3").val()
-    const answer4 = $("#input4").val()
-    const answer5 = $("#input5").val()
-    const answer6 = $("#input6").val()
-    const answer7 = $("#input7").val()
-    const answer8 = $("#input8").val()
+    event.preventDefault();
+    const answer1 = $("#input1").val();
+    const answer2 = $("#input2").val();
+    const answer3 = $("#input3").val();
+    const answer4 = $("#input4").val();
+    const answer5 = $("#input5").val();
+    const answer6 = $("#input6").val();
+    const answer7 = $("#input7").val();
+    const answer8 = $("#input8").val();
 
     if ((answer1 === "yes") && (answer2 === "yes") && (answer3 === "no") && (answer4 === "yes")
       && (answer5 === "yes") && (answer6 === "no") && (answer7 === "no") &&(answer8==="no")) {
